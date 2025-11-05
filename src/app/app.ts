@@ -9,6 +9,10 @@ import { Header} from './componets/header/header';
   styleUrl: './app.css'
 })
 export class App {
-  userName : string = 'Juan Perez'; 
- 
+  number: number = 0;
+
+ addOne() {
+
+    this.number++;
+  }
 }
