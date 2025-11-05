@@ -9,5 +9,6 @@ import { Header} from './componets/header/header';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('my-project');
+  userName : string = 'Juan Perez'; 
+ 
 }
