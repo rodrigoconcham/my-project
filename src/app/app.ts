@@ -10,15 +10,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.css'
 })
 export class App {
-
-  userName : String = 'Angular';
-
-
-  number: number = 0;
-
- addOne() {
-
-    this.number++;
-  }
+   condition: boolean = false;
+   condition2: string ="";
   
 }
