@@ -10,7 +10,6 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.css'
 })
 export class App {
-   condition: boolean = false;
-   condition2: string ="";
-  
+ movies: string[] = ['The Shawshank Redemption', 'The Godfather', 'The Dark Knight']; 
+
 }
